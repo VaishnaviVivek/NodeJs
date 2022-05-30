@@ -1,0 +1,24 @@
+{
+  "name": "demotest",
+  "version": "1.0.0",
+  "description": "this is to understand the demo.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "Shubham Verma",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-http": "4.2.1",
+    "mocha": "5.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "4.16.4"
+  }
+}
